@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header style */
+.header {
+    background: rgba(229, 84, 115, 0.10);
+    padding: 0px 100px 0px 140px;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.banner-info {}
+
+.banner-container img {
+    padding-top: 80px;
+    /* padding-left: 70px; */
+}
+
+.banner-info-title {
+    color: #272727;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+
+.banner-info-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 23px;
+}
+
+.primary-btn {
+    padding: 20px 42px;
+    color: white;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Bonus Mark Section style */
+.bonus-mark-section {
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.bonus-mark-section-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 23px;
+}
+
+.bonus-mark-section-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 560px;
+    margin: auto;
+}
+
+.flower-tree-container {
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+
+}
+
+.flower-tree {
+    margin-top: 60px;
+    width: 430px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    position: relative;
+    /* padding-right: 70px; */
+
+
+}
+
+.flower-tree img {
+    /* padding:0 30px 0px 30px; */
+}
+
+.position {
+    position: absolute;
+    bottom: -3px;
+    right: 60px;
+
+}
+
+.special {
+    left: 50px;
+    bottom: 20px;
+}
+
+.flower-tree {
+
+    /* left:50px; */
+}
+
+.first {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.second {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.third {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.flower-tree-color {
+    display: flex;
+    justify-content: center;
+    gap: 270px;
+    margin-top: 40px;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+
+}
+
+/* hot deal section style */
+.hot-deal {
+    margin-top: 120px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.section-container img{
+    margin-top:80px;
+    margin-left: 70px;
+}
+
+.section-info {
+    width: 620px;
+    text-align: center;
+    margin-top:90px;
+}
+.text{
+    color:#E55473;
+}
+
+.section-info-title {
+    margin-bottom: 23px;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-info-description {
+    margin-bottom: 34px;
+    padding: 0 40px 0 40px;
+}
